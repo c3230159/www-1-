@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #fff;
+        color: #666;
+        font-family: "メイリオ",Meirio,"MS　Pゴシック","MS PGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,sans-serif;
+    }
+    h1{
+        font-family: "M PLUS lp",sans-serif;
+        color: #333;
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    .arrow.right::before{
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 8px solid #fff;
+        border-right: 0;
+        transform: translateX(1px);
+
+    
+
+    }
+    .dli-caret-circle-fill-right {display: inline-block;vertical-align: middle;color: greenyellow;line-height: 1;position: relative;width: 0.8em;height: 0.8em;border: 0.075em solid currentColor;background: currentColor;border-radius: 50%;box-sizing: content-box;}
+    .dli-caret-circle-fill-right::before {content: '';color: #fff;width: 0;height: 0;border-style: solid;border-color: transparent;border-width: 0.18em 0.31177em;border-left-color: currentColor;border-right: 0;transform: translateX(15%);position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+    .dli-chevron-right {display: inline-block;vertical-align: middle;color: greenyellow;line-height: 1;position: relative;width: 0.8em;height: 0.8em;border: 0.075em solid currentColor;background: currentColor;border-radius: 50%;box-sizing: content-box;}
+    .dli-chevron-right::before {display: inline-block;vertical-align: middle;color: #333;line-height: 1;width: 1em;height: 1em;border: 0.1em solid currentColor;border-left: 0;border-bottom: 0;box-sizing: border-box;transform: translateX(-25%) rotate(45deg);}
+    .round_arrow {
+  position: relative;
+  padding-left: 30px;
+}
+ 
+.round_arrow::before { /* 背景の表示設定 */
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 3px;
+  width: 23px; /* 横幅 */
+  height: 23px; /* 高さ */
+  border-radius: 50%; /* 角の丸み */
+  background: greenyellow;
+}
+ 
+.round_arrow::after { /* くの字の表示設定 */
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 8px;
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg);
+}
+</style>
+<body>
+    <h1 class="q1">
+    <p class="round_arrow">丸い矢印付きの見出し</p><h1></p>
+</body>
+</html>
