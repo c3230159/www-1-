@@ -5,7 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    <style>
+        .balloon2 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  font-size: 16px;
+  background: #00cc99;
+  box-sizing: border-box;
+}
+
+.balloon2:before {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 20%;
+  margin-left: -15px;
+  border: 12px solid transparent;
+  border-top: 12px solid #00cc99;
+  z-index: 2;
+}
+
+.balloon2 p {
+  margin: 0;
+  padding: 0;
+  color:white
+}
+.font_test {
+    font-weight:  bolder;
+}
+    </style>
 <body>
-    吹き出しのような見出し
+    <div class ="balloon2">
+    <span class = "font_test"><p>吹き出しのような見出し</p></span>
+    </div>
 </body>
 </html>
