@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岐阜協立大学 経営学部 経営情報学科/Gifu Kyoritsu University Faculty of Business Administration Department of Management Information</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: skyblue;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: yellowgreen;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        h1 {
+            margin: 0;
+            color: green;
+        }
+        h2 {
+            color: blue;
+        }
+        h3 {
+            text-align: center;
+            color: purple;
+        }
+        h4, p {
+            color: black;
+        }
+        a {
+            color: lightsalmon;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .box {
+            margin: 0 auto;
+            max-width: 300px;
+            height: auto;
+            background-color: white;
+            border: solid 3px black;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            max-width: 190px;
+            margin: 10px auto;
+            border-radius: 10px;
+            border: dashed 3px #ccc;
+        }
+        footer {
+            background-color: skyblue;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (min-width: 440px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 660px) {
+            .container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (min-width: 880px) {
+            .container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>岐阜協立大学 経営学部 経営情報学科</h1>
+    </header>
+    <h3>GIFU KYORITSU UNIVERSITY</h3>
+    <nav>
+        <a href="https://www.gku.ac.jp/admissions.html">ホーム</a>
+        <a href="https://www.gku.ac.jp/admission/index.html">入学案内</a>
+        <a href="https://www.gku.ac.jp/academics/index.html">学部・学科</a>
+        <a href="https://www.gku.ac.jp/campuslife/index.html">学生生活</a>
+        <a href="https://www.gku.ac.jp/topics/index.html">ニュース・イベント</a>
+        <a href="https://www.gku.ac.jp/an_inquiry/index.html">お問い合わせ</a>
+    </nav>
+    <h2>概要</h2>
+    <p>岐阜共立大学経営学部経営情報学科のホームページへようこそ！<br>
+       経営情報学科では、経営・会計・情報の3分野を融合した学びが特徴で、社会にとって必要とされているDX人材を育成します！<br>
+       ※DX:デジタルトランスフォーメーションの略（企業がAI、IoT、ビッグデータなどのデジタル技術を用いて、業務フローの改善や新たなビジネスモデルの創出だけでなく、レガシーシステムからの脱却や企業風土の変革を実現させること。※１）</p>
+    <h2>分野</h2>
+    <h4>3つの分野を究めるカリキュラムで、
+        それぞれの専門知識を融合し、最先端のテクノロジーを活用して、
+        新しい価値を創造する力を身につけます。</h4>
+    <div class="container">
+        <div class="box" id="Box1">
+            <h3>★経営・マーケティング分野</h3>
+            <p>経営学を体系的に学び、新しい製品・サービスの提案と効果的な売り出し方について考える力や、
+                企業やさまざまな組織の運営力を身につけるための科目が、用意されています。（※２）</p>
+            <h3>おすすめ</h3>
+            <h4>マーケティング論</h4>
+            <img src="imgs/syachiku.png" alt="マーケティング論">
+        </div>
+        <div class="box" id="Box2">
+            <h3>★会計・ファイナンス分野</h3>
+            <p>会計情報の意味を適切に理解して、企業の財政状態や経営状況から
+                将来性を推測する力を身につけるための科目が、用意されています。（※２）</p>
+            <h3>おすすめ</h3>
+            <h4>原価計算I</h4>
+            <img src="imgs/R (4).png" alt="原価計算I">
+        </div>
+        <div class="box" id="Box3">
+            <h3>★情報分野</h3>
+            <p>ビッグデータを利活用する現代ビジネスで、必要不可欠なAI 、IoT、ロボット、クラウド等の
+                デジタルテクノロジーを活用する力を身につけるための科目が、用意されています。（※２）</p>
+            <h3>おすすめ</h3>
+            <h4>Web制作I</h4>
+            <img src="imgs/ai_pet_family.png" alt="Web制作I">
+        </div>
+    </div>
+    <h2>学生の声</h2>
+    <div class="container">
+        <div class="box" id="Box4">
+            <img src="imgs/pose_dance_ukareru_man.png">
+            <h3>★小野 詩穏<br>
+                （経営情報学科2年）</h3>
+            <p>毎日がエブリデイのように楽しい日々を過ごしています！リテール・マーケティングのような検定に挑戦できるだけでなく、仲間と協力して挑む演習など幅広く学習することができます。<br>
+                岐阜協立大学でともに、学びましょう！</p>
+            <h4>※画像はイメージです。</h4>
+        </div>
+        <div class="box" id="Box5">
+            <img src="imgs/shinkai_nyudoukajika.png">
+            <h3>★吉田 和也様<br>
+                （経営情報学科2年）</h3>
+            <p>(記者)「一言おねがいします💔」<br>
+                (よしだ) 「あんまりないかな・・・？」<br>
+                (記者)「あぁ・・・（＾U＾）」</p>
+            <h4>※画像はイメージです。</h4>
+        </div>
+    </div>
+    <h2>ホームページ</h2>
+    <ol><li><a href="https://www.gku.ac.jp/">岐阜協立大学</a></br></li>
+    <li><a href="https://www.gku.ac.jp/academics/management/index.html">経営学部</a></li></ol>
+    <h2>参考文献</h2>
+    <ul>
+        <li><a href="https://monstar-lab.com/dx/about/digital_transformation/">https://monstar-lab.com/dx/about/digital_transformation/（※１）</a></ul></li>
+    <ul>
+        <li><a href="https://www.gku.ac.jp/academics/management/information/new/index.html">岐阜協立大学 経営情報学科</a></ul></li>
+    <footer>©GIFU KYORITSU UNIVERSITY All Rights Reserved.</footer>
+</body>
+</html>
